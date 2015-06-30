@@ -1,0 +1,16 @@
+{
+  "name": "olympus-db-elasticsearch",
+  "version": "1.0.0",
+  "description": "Olympus Plugin for Elasticsearch",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Crews <dan.crews@vivintsolar.com>",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.14.0",
+    "elasticsearch": "^5.0.0",
+    "olympus-plugin": "^1.0.0"
+  }
+}
