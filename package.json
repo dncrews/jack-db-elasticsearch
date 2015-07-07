@@ -1,16 +1,18 @@
 {
-  "name": "olympus-db-elasticsearch",
+  "name": "jack-db-elasticsearch",
   "version": "1.0.0",
-  "description": "Olympus Plugin for Elasticsearch",
+  "description": "Jack-Stack Plugin for Elasticsearch",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dan Crews <dan.crews@vivintsolar.com>",
+  "author": "Dan Crews <crewsd@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "config": "^1.14.0",
-    "elasticsearch": "^5.0.0",
-    "olympus-plugin": "^1.0.0"
+    "elasticsearch": "^5.0.0"
+  },
+  "peerDependencies": {
+    "jack-stack": "^2.0.0"
   }
 }
