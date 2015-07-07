@@ -1,4 +1,7 @@
 # jack-db-elasticsearch
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][downloads-url]
+
 This Jack-Stack Plugin is used to add create `jack.db.elasticsearch`.
 
 ```js
@@ -54,3 +57,8 @@ elasticsearch.configure({
 ```
 
 This uses the format: `host = config.url + ':' + config.port + (config.hash || '')`
+
+[npm-image]: https://img.shields.io/npm/v/jack-db-elasticsearch.svg
+[npm-url]: https://www.npmjs.org/package/jack-db-elasticsearch
+[downloads-image]: https://img.shields.io/npm/dm/jack-db-elasticsearch.svg
+[downloads-url]: https://www.npmjs.org/package/jack-db-elasticsearch
